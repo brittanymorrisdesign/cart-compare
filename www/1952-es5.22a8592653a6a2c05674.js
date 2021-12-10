@@ -1,0 +1,1 @@
+(self.webpackChunkcart_compare=self.webpackChunkcart_compare||[]).push([[1952],{1952:function(c,e,a){"use strict";a.r(e),a(6423)}}]);
