@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>rewards-giftcard-redeem</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <img src="./assets/rewards/Logo.png">
+  </div>
+      
+  <div class="banner">
+    <img src="./assets/rewards/banner.png">
+    <div class="banner_text"><b>Rewards Checkout</b></div>
+  </div>
+
+  <div class="giftcard">
+    <div class="giftcard_img">
+      <img src="./assets/rewards/bestbuy.jpg" width="50%" height="50%">
+    </div>
+    <div class="giftcard_description">
+      <p>$10 Best Buy Gift Card <br>10,000 Points</p>
+    </div>
+  </div>
+
+  <div class="header">
+    <p><b>Shipping Address</b></p>
+  </div>
+  
+
+  <div class="form">
+    <ion-item>
+      <ion-label>Street Address</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Zip Code</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>City</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>State</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+</div>
+
+  <div class="submit_button">
+    <ion-button type="submit" (click)="showAlert()">Submit</ion-button>
+  </div>
+
+<!--temp button-->
+  <ion-button (click)="return2Main()">Back</ion-button>
+
+</ion-content>
+

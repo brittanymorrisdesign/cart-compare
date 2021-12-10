@@ -1,0 +1,46 @@
+.banner{
+    position: relative;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.banner_text{
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    color: white;
+    font-size: 30px;
+}
+
+.giftcard{
+    position: relative;
+    margin-bottom: -25px;
+}
+
+.giftcard_img{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+.giftcard_description{
+    position: absolute;
+    right: 80px;
+    top: -7px;
+    font-size: 15px;
+}
+
+.header{
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-bottom: -10px;
+}
+.submit_button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+ion-button{
+    --background: #F79326;
+    --border-radius: 10px;
+}

@@ -1,0 +1,71 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Rewards
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div>
+    <img src="./assets/rewards/Logo.png">
+  </div>
+
+  <div class="banner">
+    <img src="./assets/rewards/banner.png">
+    <div class="banner_reward"><b>Rewards</b></div>
+    <div class="banner_points"><b>10,000 Points</b></div>
+  </div>
+
+  <p><b>Sweepstakes</b></p>
+  <div class="wrapper">
+    <div>
+      <img class="swpstk" src="./assets/rewards/iphone13.jpg" width="80" height="80">
+      <p class="description">iPhone 13 Max Pro <br>10 points</p>
+    </div>
+    <div>
+      <img class="swpstk" src="./assets/rewards/hp_chromebook.jpg" width="80" height="80">
+      <p class="description">HP ChromeBook <br>10 points</p>
+    </div>
+    <div>
+      <img class="swpstk" src="./assets/rewards/apple_airpod.jpg" width="80" height="80">
+      <p class="description">Apple Airpods <br>5 points</p>
+    </div>
+  </div>
+
+  <p><b>Gift Cards</b></p>
+  <div class="wrapper">
+    <div class="giftcard">
+      <img src="./assets/rewards/amazon.png" style="position:relative; top:-16px;">
+      <p class="description" style="position:relative; top:-32px;">$20 Amazon <br> 20,000 points</p>
+    </div>
+    <div class="giftcard">
+      <a href="../rewards-giftcard-info">
+      <img src="./assets/rewards/bestbuy.jpg">
+      </a>
+      <p class="description">$10 Best Buy <br>10,000 points</p>
+    </div>
+    <div class="giftcard">
+      <img src="./assets/rewards/olive_garden.jpg" >
+      <p class="description">$100 Olive Garden <br>100,000 points</p>
+    </div>
+    <div class="giftcard">
+      <img src="./assets/rewards/applebees.png">
+      <p class="description">$50 Applebees <br> 50,000 points</p>
+    </div>
+    <div class="giftcard">
+      <img src="./assets/rewards/walmart.png">
+      <p class="description">$10 Walmart <br>10,000 points</p>
+    </div>
+    <div class="giftcard">
+      <img src="./assets/rewards/amc.png" >
+      <p class="description">$50 AMC <br>50,000 points</p>
+    </div>
+  </div>
+
+  <!--temp link to redeem for testing-->
+  <a href="../rewards-giftcard-redeem">giftcard redeem</a>
+
+  <!--<button ion-button (click)="giftcard_info()">Go to giftcard info page</button>-->
+  <!--<ion-button href="../rewards-giftcard-info">Here</ion-button>-->
+</ion-content>

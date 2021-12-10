@@ -1,0 +1,7 @@
+{
+  "name": "cart-compare",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
